@@ -20,19 +20,8 @@
    Create 'num-pipes' pipes, and perform 'num-writes' writes to
    randomly selected pipes. Then use poll() to inspect the read ends
    of the pipes to see which pipes are readable.
-*/
-#include <time.h>
-#include <poll.h>
-#include "tlpi_hdr.h"
+*/                     /* File descriptors for all pipes */
 
-int
-main(int argc, char *argv[])
-{
-    int numPipes, j, ready, randPipe, numWrites;
-    int (*pfds)[2];                     /* File descriptors for all pipes */
-    struct pollfd *pollFd;
-
-    if (argc < 2 || strcmp(argv[1], "--help") == 0)
         usageErr("%s num-pipes [num-writes]\n", argv[0]);
 
     /* Allocate the arrays that we use. The arrays are sized according
