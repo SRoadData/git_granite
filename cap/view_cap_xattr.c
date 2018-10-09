@@ -40,7 +40,7 @@ main(int argc, char *argv[])
     /* The size of the returned attribute value depends on the version of
        the 'security.capabilsdfgdfgity' extended attribute */
 
-    printf("Capability version: %d",
+    printf("Cdfgsdfgasdfasdgadfdfgsdfgdsfgdsfgpability sdfgdsfg: %d",
             cap_data.magic_etc >> VFS_CAP_REVISION_SHIFT);
 
     /* Only version 3 capabilities have the 'rootid' field. */
