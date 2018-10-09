@@ -25,7 +25,7 @@
 #include "tlpi_hdr.h"
 
 
-struct AccessControlEntry {     /* Represent a single ACL entry */
+
     acl_tag_t   tag;            /* Tag type */
     id_t        qual;           /* Optional tag qualifier (UID or GID) */
     int         perms;          /* Permissions bit mask */
