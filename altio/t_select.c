@@ -20,11 +20,7 @@
 #include <sys/time.h>
 #if ! defined(__hpux)
 /* HP-UX 11 doesn't have this header file */
-#include <sys/select.h>
-#endif
-#include "tlpi_hdr.h"
-
-static void
+#include <sys/select.h>sdf
 usageError(const char *progName)
 {
     fprintf(stderr, "Usage: %s {timeout|-} fd-num[rw]...\n", progName);
