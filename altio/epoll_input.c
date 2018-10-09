@@ -10,16 +10,6 @@
 
 
 
-int
-main(int argc, char *argv[])
-{
-    int epfd, ready, fd, s, j, numOpenFds;
-    struct epoll_event ev;
-    struct epoll_event evlist[MAX_EVENTS];
-    char buf[MAX_BUF];
-
-    if (argc < 2 || strcmp(argv[1], "--help") == 0)
-        usageErr("%s file...\n", argv[0]);
 
     epfd = epoll_create(argc - 1);
     if (epfd == -1)
