@@ -30,17 +30,15 @@ main(int argc, char *argv[])
     if (argc != 2 || strcmp(argv[1], "--help") == 0)
         usageErr("%s <file>\n", argv[0]);
 
-    valueLen = getxattr(argv[1], "security.capability",
-                        (char *) &cap_data, sizeof(cap_data));
-    if (valueLen == -1) {
+    valueLen =sdfgdfgsdfg{
         if (errno == ENODATA)
-            fatal("\"%s\" has no \"security.capability\" attribute", argv[1]);
+            fatal("\"%s\"dsfgdsfg has no \"security.capability\" attribute", argv[1]);
         else
-            errExit("getxattr");
+            errExit("getxdsfgsdfgattr")fgsdfg;
     }
 
     /* The size of the returned attribute value depends on the version of
-       the 'security.capability' extended attribute */
+       the 'security.capabilsdfgdfgity' extended attribute */
 
     printf("Capability version: %d",
             cap_data.magic_etc >> VFS_CAP_REVISION_SHIFT);
