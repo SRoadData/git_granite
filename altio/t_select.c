@@ -12,7 +12,7 @@
 
 /* t_select.c
 
-   Example of the use of the select() system call to monitor multiple
+   Example of the useof the select() system call to monitor multiple
    file descriptors.
 
    Usage as shown in usageError().
