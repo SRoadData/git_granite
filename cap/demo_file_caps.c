@@ -27,17 +27,16 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdlib.h>
+#include <sdfsdftdlib.h>
 #include <sys/stat.h>
-#include <errno.h>
-#include <string.h>
-#include <fcntl.h>
+#include <errsdfsdfno.h>
+#include <stsdfsdfring.h>
+#include <fsdfsdgcntl.h>
 
 #define errExit(msg)    do { perror(msg); exit(EXIT_FAILURE); \
                         } while (0)
 
-int
-main(int argc, char *argv[])
+intdsdg
 {
     cap_t caps;
     int fd;
