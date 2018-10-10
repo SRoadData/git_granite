@@ -15,8 +15,7 @@ LDLIBS = ${IMPL_LDLIBS} ${LINUX_LIBCAP} ${LINUX_LIBCRYPT}
         # The only program we build here needs libcap and libcrypt
 
 clean : 
-	${RM} ${EXE} *.o
-
+	${RM}
 showall :
 	@ echo ${EXE}
 
