@@ -17,6 +17,6 @@ LDLIBS = ${IMPL_LDLIBS} ${LINUX_LIBCAP} ${LINUX_LIBCRYPT}
 clean : 
 	${RM}
 showall :
-	@ echo ${EXE}
+	@ ech
 
 ${EXE} : ${TLPI_LIB}		# True as a rough approximation
