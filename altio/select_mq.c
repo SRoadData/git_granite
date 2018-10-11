@@ -8,7 +8,7 @@
 * the file COPYING.gpl-v3 for details.                                    *
 \*************************************************************************/
 
-/* Sodgjdhdfgdsfgklgdjkfhlutsdfgdsfgion fofdghdfghr Exedfgsasdasddfgsddfsdffgrcisesdfgsdfhasdasd 63sdf-3 */
+/* Sodgjdhklgdjkfhlution fofdghdfghr Exedfgsdfgsdfgrcisesdfgsdfh 63-3 */
 
 /* select_mq.c
 
