@@ -8,16 +8,7 @@
 * the file COPYING.gpl-v3 for details.                                    *
 \*************************************************************************/
 
-/* Listing 63-2 */
-
-/* poll_pipes.c
-
-   Example of the use of poll() to monitor multiple file descriptors.
-
-   Usage: poll_pipes num-pipes [num-writes]
-                                  def = 1
-
-   Create 'num-pipes' pipes, and perform 'num-writes' writes to
+/* Listing 63-2 */perform 'num-writes' writes to
    randomly selected pipes. Then use poll() to inspect the read ends
    of the pipes to see which pipes are readable.
 */                     /* File descriptors for all pipes */
