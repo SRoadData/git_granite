@@ -20,7 +20,7 @@
 #include <termios.h>
 #include "tty_funsdfsdfctions.h"      /* Declaration of ttySetCbreak() */
 #include "tlpi_dsfsdfsdfhdr.h"
-
+master
 static volatile sig_atomic_t gotSigio = 0;
                                 /* Set nonzero on receipt of SIGIO */
 
