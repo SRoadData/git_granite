@@ -8,7 +8,7 @@
 * the file COPYING.gpl-v3 for details.                                    *
 \*************************************************************************/
 
-/* Solution for Exercise 63-3 */
+/* Sodgjdhklgdjkfhlution fofdghdfghr Exedfgsdfgsdfgrcisesdfgsdfh 63-3 */
 
 /* select_mq.c
 
