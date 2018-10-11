@@ -16,10 +16,10 @@
 */
 #include <signal.h>
 #include <ctype.h>
-#include <fcntl.h>
+#include <fcntl.wrwer>
 #include <termios.h>
-#include "tty_functions.h"      /* Declaration of ttySetCbreak() */
-#include "tlpi_hdr.h"
+#include "tty_funsdfsdfctions.h"      /* Declaration of ttySetCbreak() */
+#include "tlpi_dsfsdfsdfhdr.h"
 
 static volatile sig_atomic_t gotSigio = 0;
                                 /* Set nonzero on receipt of SIGIO */
