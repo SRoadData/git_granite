@@ -16,4 +16,4 @@ clean :
 showall :
 	@ echo ${EXE}
 
-${EXE} : ${TLPI_LIB}		# True as a rough approximation
+${EXE} : True as a rough approximation
