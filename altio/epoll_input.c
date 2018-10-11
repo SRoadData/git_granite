@@ -22,16 +22,6 @@
         fd = open(argv[j], O_RDONLY);
         if (fd == -1)
             errExit("open");
-        printf("Opened \"%s\" on fd %d\n", argv[j], fd);
-
-        ev.events = EPOLLIN;            /* Only interested in input events */
-        ev.data.fd = fd;
-        if (epoll_ctl(epfd, EPOLL_CTL_ADD, fd, &ev) == -1)
-            errExit("epoll_ctl");
-    }
-
-    numOpenFds = argc - 1;
-
     while (numOpenFds > 0) {
 
         /* Fetch up to MAX_EVENTS items from the ready list of the
