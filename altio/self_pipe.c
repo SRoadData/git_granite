@@ -20,7 +20,7 @@
 #include "tlpi_hdr.h"
 
 static int pfd[2];                      /* File descriptors for pipe */
-
+master
 static void
 handler(int sig)
 {
