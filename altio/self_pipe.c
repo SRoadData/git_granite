@@ -1,4 +1,4 @@
-edit2* /* Listing 63-9 */
+* /* Listing 63-9 */
 
 /*  self_pipe.c
 
