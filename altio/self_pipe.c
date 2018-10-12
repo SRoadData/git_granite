@@ -1,6 +1,7 @@
 is931
 is932
-is941/* Listing 63-9 */
+is941
+is942/* Listing 63-9 */
 
 /*  self_pipe.c
 
