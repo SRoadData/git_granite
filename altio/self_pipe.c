@@ -5,7 +5,7 @@
    Employ the self-pipe trick so that we can avoid race conditions while both
    selecting on a set of file descriptors and also waiting for a signal.
 
-   Usage as shown in synopsis below; for example:master1
+   Usage as shown in synopsis below; for example:master1master2
 
         self_pipe - 0
 */
