@@ -1,5 +1,4 @@
-is941
-is942/*************************************************************************\
+/*************************************************************************\
 *                  Copyright (C) Michael Kerrisk, 2018.                   *
 *                                                                         *
 * This program is free software. You may use, modify, and redistribute it *
