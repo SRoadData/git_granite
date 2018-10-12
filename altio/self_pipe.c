@@ -1,6 +1,5 @@
 
-is93
-is932
+master
 /* Listing 63-9 */
 
 /*  self_pipe.c
