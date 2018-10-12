@@ -1,7 +1,7 @@
-master1
-master2
-master3
-master4
+is931
+is932
+is937
+is939
 /* Listing 63-9 */
 
 /*  self_pipe.c
